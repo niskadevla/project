@@ -1,4 +1,4 @@
-// @import "utils/libs";
+
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/sliders";
@@ -54,10 +54,11 @@ section, .section {
   left: 0;
   right: 0;
   margin: 0 auto;
+  z-index: 99;
 }
 
 .header-slider {
-  height: 100vh;
+  // height: 100vh;
 }
 
 .fa-phone {

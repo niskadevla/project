@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.header .slider-inner').slick({
+  $('.header .header-slider_inner').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: false,
