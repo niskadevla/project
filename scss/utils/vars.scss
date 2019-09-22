@@ -1,13 +1,17 @@
 //Font
-$mainFontFamily: 'Arial', sans-serif;
+$mainFontFamily: Arial, sans-serif;
 $secondFontFamily: 'Fira Sans', sans-serif;
 
 //Font size
 $mainFontSize: 14px;
+$btnFontSize: 1.15rem; //18px
+$secondFontSize: 1.4rem; //20px
+$minFontSize: 0.78rem; //11px
+$mdFontSize: 1.13rem; //16px
 
 //Size
 $mainFontWeight: 400;
-$mainLineHeight: 1.4;
+$mainLineHeight: 1.4rem;
 
 $desktopWidth: 1199.98px;
 $smDesktopWidth: 991.98px;
@@ -15,34 +19,43 @@ $tableWidth: 767.98px;
 $phoneWidth: 575.98px;
 $smPhoneWidth: 319.98px;
 
+//Border radius
+$btnBorderRadius: 0.7rem;
+$imgBorderRadius: 0.35rem;
+
+//Second size
+$tb: 0.9rem;
+$rl: 1.5rem;
+$btnLineheight: $btnFontSize + $tb * 2 + 0.3rem;
+$btnPadding: $tb $rl;
+
+$btnCircleWidth: 2.3rem;
+
+$secondFontWeight: bold;
+
 //Font color
 $mainFontColor: #fff;
 $secondFontColor: #000;
 $thirdFontColor: #fbd341;
+$color-darken: 20%;
 
 //Background color
 $mainBgColor: #fff;
-$secondBgColor: #fbd341f8f7f7;
-$secondHeaderBgColor: #004c84;
+$secondBgColor: #f8f7f7;
+$secondHeaderBgColor: rgba(0, 76, 133, 0.5);
 $mainFooterBgColor: #22334d;
-$secondFooterBgColor: #060a56;
-$thirdFooterBgColor: #000;
+$secondFooterBgColor: rgba(6, 10, 85, 0.5);
+$thirdFooterBgColor: rgba(0, 0, 0, 0.6);
+
+$trackColor: rgba(18, 18, 18, 0.1);
+$lineColor: rgba(255, 255, 255, 0.4);
 
 //Button Color
 $mainBtnColor: #fbd341;
 
 //Dropdown Color
-$mainDropdownColor: #f8f7f7;
-$secondDropdownColor: #3397e2;
-
-
-
-
-//Neutral color
-
-//Border radius
-$btnBorderRadius: 10px;
-$imgBorderRadius: 5px;
+$mainDropdownColor: #3397e2;
+$secondDropdownColor: #f8f7f7;
 
 //Opacity
 $normal-opacity: 1;
@@ -50,4 +63,4 @@ $xlg-opacity: 0.9;
 $lg-opacity: 0.8;
 $md-opacity: 0.7;
 $sm-opacity: 0.6;
-$xsm-opacity: 0.55;
+$xsm-opacity: 0.50;
