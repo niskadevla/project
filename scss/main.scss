@@ -574,7 +574,6 @@ img {
     &-slider {
       &_inner {
         display: flex;
-        // flex-wrap: nowrap;
       }
 
       &_card-wrap {
@@ -587,9 +586,6 @@ img {
       &_card {
         background-color: #f8f7f7;
         color: $secondFontColor;
-        // width: auto;
-        // flex-wrap: nowrap;
-        // flex: 0 0 auto;
         border-radius: $imgBorderRadius;
       }
 
@@ -681,8 +677,6 @@ img {
     &_img {
       overflow: hidden;
       @include size(100%);
-      // width: 15vw;
-      // height: auto;
 
       img {
         @include fitImg();

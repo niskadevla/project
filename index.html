@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="zxx">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,7 +45,7 @@
                       <a href="#" class="nav_link">Главная</a>
                     </li>
                     <li class="nav_item dropdown">
-                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="menu">
                         Туры
                       </a>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -60,7 +60,7 @@
                       <a href="#" class="nav_link">Страны</a>
                     </li>
                     <li class="nav_item">
-                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="menu">
                         Услуги
                       </a>
                       <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -81,50 +81,6 @@
                   </ul>
                 </div>
               </nav>
-              <!-- <nav class="menu-nav">
-                <div class="nav_list-wrap row dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">|||</a>
-                  <ul class="nav_list dropdown-menu">
-                    <li class="nav_item dropdown-item">
-                      <a href="#" class="nav_link">Главная</a>
-                    </li>
-                    <li class="nav_item dropdown dropdown-item">
-                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Туры
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <a href="#" class="dropdown-item" >Горящие туры</a>
-                        <a href="#" class="dropdown-item" >Поиск тура</a>
-                        <a href="#" class="dropdown-item" >Туры по Украине</a>
-                        <a href="#" class="dropdown-item" >Экскурсионные туры</a>
-                        <a href="#" class="dropdown-item" >Weekend туры</a>
-                      </div>
-                    </li>
-                    <li class="nav_item dropdown-item">
-                      <a href="#" class="nav_link">Страны</a>
-                    </li>
-                    <li class="nav_item dropdown-item">
-                      <a href="#" class="nav_link dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Услуги
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <a href="#" class="dropdown-item" >Авиабилеты</a>
-                        <a href="#" class="dropdown-item" >Визовая  поддержка</a>
-                        <a href="#" class="dropdown-item" >Индивидуальный трансфер</a>
-                        <a href="#" class="dropdown-item" >Подарочные сертификаты</a>
-                        <a href="#" class="dropdown-item" >Бронирование отелей и апартаментов</a>
-                        <a href="#" class="dropdown-item" >Как забронировать и оплатить тур</a>
-                      </div>
-                    </li>
-                    <li class="nav_item dropdown-item">
-                      <a href="#" class="nav_link">О компании</a>
-                    </li>
-                    <li class="nav_item dropdown-item">
-                      <a href="#" class="nav_link">Контакты</a>
-                    </li>
-                  </ul>
-                </div>
-              </nav> -->
             </menu>
           </div> <!-- container -->
         </div>
@@ -201,7 +157,7 @@
     </section>
 
     <section class="section">
-      <main class="offers">
+      <div class="offers">
         <div class="container">
           <nav class="offers-link">
             <ol class="offers-list">
@@ -317,11 +273,11 @@
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </section>
 
     <section class="section">
-      <main class="advantages">
+      <div class="advantages">
         <div class="container">
           <h2 class="advantages-title">Наши преимущества</h2>
           <div class="advantages-block row">
@@ -345,7 +301,7 @@
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </section>
 
     <section class="section sticky">
@@ -356,13 +312,13 @@
               <h2>Хочу предложение по туру</h2>
             </div>
             <div class="footer-top_form">
-              <form class="form-advantage row" action="" method="">
+              <form class="form-advantage row" action="/" method="post">
                 <input id="name" type="text" name="name" placeholder="Имя">
                 <input id="email" type="email" name="email" placeholder="Email" required>
                 <input id="tel" type="tel" name="tel" placeholder="Телефон" required pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}">
 
                 <div class="form-country dropdown">
-                  <input class="dropdown-toggle" id="countr" type="text" name="countr" placeholder="Страна тура" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <input class="dropdown-toggle" id="countr" type="text" name="countr" placeholder="Страна тура" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="list">
                   <div class="dropdown-menu" aria-labelledby="countr">
                     <a href="#" class="dropdown-item" >Турция</a>
                     <a href="#" class="dropdown-item" >Египет</a>
@@ -431,7 +387,7 @@
                 </a>
               </li>
               <li>
-                <a href="tel:+38 (099) 990-81-00">
+                <a href="tel:0999908100">
                   <i class="fas fa-phone"></i>
                   <span >+38 (099) 990-81-00  (viber, telegram)</span>
                 </a>
